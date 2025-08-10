@@ -1,0 +1,19 @@
+{
+  "name": "andreih/basemodule",
+  "license": "MIT",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "PrestaShop\\Module\\BaseModule\\": "src/"
+    }
+  },
+  "config": {
+    "prepend-autoloader": false
+  },
+  "authors": [
+    {
+      "name": "Andrei Humulescu"
+    }
+  ],
+  "require": {}
+}
