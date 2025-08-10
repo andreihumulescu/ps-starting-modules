@@ -1,4 +1,4 @@
-# PrestaShop Remove Order Payment
+# PrestaShop Base Module
 
 ## Description
 
