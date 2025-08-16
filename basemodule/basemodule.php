@@ -77,4 +77,13 @@ class BaseModule extends Module
     {
         return true;
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getContent()
+    {
+        $route = $this->get('router')->generate('base_module_configuration');
+        Tools::redirectAdmin($route);
+    }
 }

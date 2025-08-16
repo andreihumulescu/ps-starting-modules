@@ -1,4 +1,4 @@
-# PrestaShop Base Module
+# PrestaShop Remove Order Payment
 
 ## Description
 
@@ -19,10 +19,10 @@ Current basic functionalities:
 - Uninstall
 - Hooks
 - Composer Autoloading
+- Configuration Page (using Symfony Forms)
 
 To be added:
 
-- Configuration Page (new system)
 - Custom SQL tables
 - Custom JS / CSS
 

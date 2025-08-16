@@ -1,0 +1,7 @@
+base_module_configuration:
+  path: /basemodule/configuration
+  methods: [GET, POST]
+  defaults:
+    _controller: 'PrestaShop\Module\BaseModule\Controller\Admin\ConfigurationController::index'
+    _legacy_controller: AdminBaseModuleConfiguation
+    _legacy_link: AdminBaseModuleConfiguration
